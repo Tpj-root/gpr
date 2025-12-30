@@ -16,7 +16,7 @@ namespace gpr {
     vector<T> s;
 
     template<typename R>
-    parse_stream<T>(R v) : s(v.begin(), v.end()) {
+    parse_stream(R v) : s(v.begin(), v.end()) {
       i = 0;
     }
 
